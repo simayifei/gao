@@ -1,6 +1,6 @@
 {
-  "spider": "./jar/custom_spider.jar;md5;41c87635d7592069884a5dafa12acabe",
-  "wallpaper": "https://深色壁纸.xxooo.cf/",
+  "spider": "https://ghfast.top/https://raw.githubusercontent.com/simayifei/gao/master/jar/custom_spider.jar;md5;41c87635d7592069884a5dafa12acabe",
+  "wallpaper": "https://api.btstu.cn/sjbz/zsy.php",
   "logo": "https://avatars.githubusercontent.com/u/58679624?v=4",
   "flags": [
     "量子",
@@ -56,7 +56,7 @@
       "api": "csp_Douban",
       "searchable": 0,
       "changeable": 1,
-      "ext": "./json/douban.json",
+      "ext": "https://ghfast.top/https://raw.githubusercontent.com/simayifei/gao/master/json/douban.json",
       "style": {
         "type": "rect",
         "ratio": 0.75
@@ -302,7 +302,7 @@
       "changeable": 0,
       "ext": {
         "token": "影视天下第一",
-        "filter": "./json/wogg.json"
+        "filter": "https://ghfast.top/https://raw.githubusercontent.com/simayifei/gao/master/json/wogg.json"
       },
       "style": {
         "type": "rect",
@@ -316,7 +316,7 @@
       "api": "csp_Jianpian",
       "searchable": 1,
       "changeable": 1,
-      "ext": "./json/jianpian.json",
+      "ext": "https://ghfast.top/https://raw.githubusercontent.com/simayifei/gao/master/json/jianpian.json",
       "style": {
         "type": "rect",
         "ratio": 0.75
@@ -329,7 +329,7 @@
       "api": "csp_XPathMacFilter",
       "searchable": 1,
       "changeable": 1,
-      "ext": "./json/duboku.json",
+      "ext": "https://ghfast.top/https://raw.githubusercontent.com/simayifei/gao/master/json/duboku.json",
       "style": {
         "type": "rect",
         "ratio": 0.75
@@ -396,7 +396,7 @@
         "ratio": 1.433
       },
       "ext": {
-        "json": "./json/bili.json",
+        "json": "https://ghfast.top/https://raw.githubusercontent.com/simayifei/gao/master/json/bili.json",
         "type": "帕梅拉#太极拳#广场舞#演唱会",
         "cookie": ""
       }
@@ -405,7 +405,7 @@
       "key": "bili_open",
       "name": "哔哩猫",
       "type": 3,
-      "api": "./cat/js/bili_open.js",
+      "api": "https://ghfast.top/https://raw.githubusercontent.com/simayifei/gao/master/cat/js/bili_open.js",
       "searchable": 1,
       "changeable": 0,
       "ext": {
@@ -528,7 +528,7 @@
       "api": "csp_AList",
       "searchable": 1,
       "changeable": 0,
-      "ext": "./json/alist.json",
+      "ext": "https://ghfast.top/https://raw.githubusercontent.com/simayifei/gao/master/json/alist.json",
       "style": {
         "type": "rect",
         "ratio": 0.75
@@ -541,7 +541,7 @@
       "api": "csp_WebDAV",
       "searchable": 0,
       "changeable": 0,
-      "ext": "./json/webdav.json",
+      "ext": "https://ghfast.top/https://raw.githubusercontent.com/simayifei/gao/master/json/webdav.json",
       "style": {
         "type": "list"
       }
