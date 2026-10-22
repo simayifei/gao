@@ -1,6 +1,10 @@
 {
   "urls": [
     {
+      "url": "./APPTV.json",
+      "name": "凯迪TV AppleTV"
+    },
+    {
       "url": "./0821.json",
       "name": "高天流云 No.1"
     },
