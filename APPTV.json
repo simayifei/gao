@@ -63,8 +63,113 @@
       }
     },
     {
+      "key": "凯迪电影",
+      "name": "电影",
+      "type": 1,
+      "api": "http://47.95.5.101/api.php/provide/vod?t=1",
+      "searchable": 1,
+      "changeable": 1,
+      "header": {
+        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 Chrome/120.0.0.0 Safari/537.36",
+        "Referer": "http://47.95.5.101/"
+      },
+      "categories": [
+        "动作片",
+        "喜剧片",
+        "爱情片",
+        "科幻片",
+        "恐怖片",
+        "剧情片",
+        "战争片",
+        "悬疑片",
+        "动画片"
+      ],
+      "style": {
+        "type": "rect",
+        "ratio": 0.75
+      },
+      "filterable": 1,
+      "quickSearch": 1
+    },
+    {
+      "key": "凯迪电视剧",
+      "name": "电视剧",
+      "type": 1,
+      "api": "http://47.95.5.101/api.php/provide/vod?t=2",
+      "searchable": 1,
+      "changeable": 1,
+      "header": {
+        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 Chrome/120.0.0.0 Safari/537.36",
+        "Referer": "http://47.95.5.101/"
+      },
+      "categories": [
+        "国产剧",
+        "港台剧",
+        "日韩剧",
+        "欧美剧",
+        "短剧"
+      ],
+      "style": {
+        "type": "rect",
+        "ratio": 0.75
+      },
+      "filterable": 1,
+      "quickSearch": 1
+    },
+    {
+      "key": "凯迪综艺",
+      "name": "综艺",
+      "type": 1,
+      "api": "http://47.95.5.101/api.php/provide/vod?t=3",
+      "searchable": 1,
+      "changeable": 1,
+      "header": {
+        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 Chrome/120.0.0.0 Safari/537.36",
+        "Referer": "http://47.95.5.101/"
+      },
+      "categories": [
+        "大陆综艺",
+        "日韩综艺",
+        "港台综艺",
+        "欧美综艺",
+        "记录片"
+      ],
+      "style": {
+        "type": "rect",
+        "ratio": 0.75
+      },
+      "filterable": 1,
+      "quickSearch": 1
+    },
+    {
+      "key": "凯迪动漫",
+      "name": "动漫",
+      "type": 1,
+      "api": "http://47.95.5.101/api.php/provide/vod?t=4",
+      "searchable": 1,
+      "changeable": 1,
+      "header": {
+        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 Chrome/120.0.0.0 Safari/537.36",
+        "Referer": "http://47.95.5.101/"
+      },
+      "categories": [
+        "国产动漫",
+        "日韩动漫",
+        "港台动漫",
+        "欧美动漫",
+        "动漫电影",
+        "AI漫剧"
+      ],
+      "style": {
+        "type": "rect",
+        "ratio": 0.75
+      },
+      "filterable": 1,
+      "quickSearch": 1
+    },
+    {
       "key": "主站",
-      "name": "凯迪TV主站",
+      "name": "凯迪全部",
       "type": 1,
       "api": "http://47.95.5.101/api.php/provide/vod",
       "searchable": 1,
@@ -72,10 +177,6 @@
       "header": {
         "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 Chrome/120.0.0.0 Safari/537.36",
         "Referer": "http://47.95.5.101/"
-      },
-      "style": {
-        "type": "rect",
-        "ratio": 0.75
       },
       "categories": [
         "电影",
@@ -109,7 +210,13 @@
         "港台综艺",
         "欧美综艺",
         "记录片"
-      ]
+      ],
+      "style": {
+        "type": "rect",
+        "ratio": 0.75
+      },
+      "filterable": 1,
+      "quickSearch": 1
     },
     {
       "key": "量子",
