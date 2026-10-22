@@ -131,8 +131,7 @@
         "大陆综艺",
         "日韩综艺",
         "港台综艺",
-        "欧美综艺",
-        "记录片"
+        "欧美综艺"
       ],
       "style": {
         "type": "rect",
@@ -156,9 +155,7 @@
         "国产动漫",
         "日韩动漫",
         "港台动漫",
-        "欧美动漫",
-        "动漫电影",
-        "AI漫剧"
+        "欧美动漫"
       ],
       "style": {
         "type": "rect",
@@ -168,8 +165,8 @@
       "quickSearch": 1
     },
     {
-      "key": "主站",
-      "name": "凯迪全部",
+      "key": "更多分类",
+      "name": "更多",
       "type": 1,
       "api": "http://47.95.5.101/api.php/provide/vod",
       "searchable": 1,
@@ -179,37 +176,11 @@
         "Referer": "http://47.95.5.101/"
       },
       "categories": [
-        "电影",
-        "动作片",
-        "喜剧片",
-        "爱情片",
-        "科幻片",
-        "恐怖片",
-        "剧情片",
-        "战争片",
-        "悬疑片",
-        "动画片",
-        "动漫",
-        "国产动漫",
-        "日韩动漫",
-        "港台动漫",
-        "欧美动漫",
-        "动漫电影",
+        "记录片",
         "AI漫剧",
-        "连续剧",
-        "国产剧",
-        "港台剧",
-        "日韩剧",
-        "欧美剧",
-        "短剧",
+        "动漫电影",
         "netflix",
-        "海外电影",
-        "综艺",
-        "大陆综艺",
-        "日韩综艺",
-        "港台综艺",
-        "欧美综艺",
-        "记录片"
+        "海外电影"
       ],
       "style": {
         "type": "rect",
@@ -217,354 +188,6 @@
       },
       "filterable": 1,
       "quickSearch": 1
-    },
-    {
-      "key": "量子",
-      "name": "量子",
-      "type": 1,
-      "api": "https://cj.lziapi.com/api.php/provide/vod",
-      "searchable": 1,
-      "changeable": 1,
-      "header": {
-        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
-      },
-      "style": {
-        "type": "rect",
-        "ratio": 0.75
-      }
-    },
-    {
-      "key": "暴风",
-      "name": "暴风",
-      "type": 1,
-      "api": "https://bfzyapi.com/api.php/provide/vod",
-      "searchable": 1,
-      "changeable": 1,
-      "style": {
-        "type": "rect",
-        "ratio": 0.75
-      }
-    },
-    {
-      "key": "索尼",
-      "name": "索尼",
-      "type": 1,
-      "api": "https://suoniapi.com/api.php/provide/vod",
-      "searchable": 1,
-      "changeable": 1,
-      "style": {
-        "type": "rect",
-        "ratio": 0.75
-      }
-    },
-    {
-      "key": "快帆",
-      "name": "快帆",
-      "type": 1,
-      "api": "https://api.kuaifan.tv/api.php/provide/vod",
-      "searchable": 1,
-      "changeable": 1,
-      "style": {
-        "type": "rect",
-        "ratio": 0.75
-      }
-    },
-    {
-      "key": "泥巴",
-      "name": "泥巴",
-      "type": 3,
-      "api": "csp_NiNi",
-      "searchable": 1,
-      "changeable": 1,
-      "style": {
-        "type": "rect",
-        "ratio": 0.75
-      }
-    },
-    {
-      "key": "星星",
-      "name": "星星",
-      "type": 3,
-      "api": "csp_Star",
-      "searchable": 1,
-      "changeable": 1,
-      "style": {
-        "type": "rect",
-        "ratio": 0.75
-      }
-    },
-    {
-      "key": "玩偶",
-      "name": "玩偶",
-      "type": 3,
-      "api": "csp_Wogg",
-      "searchable": 1,
-      "changeable": 0,
-      "ext": {
-        "token": "影视天下第一",
-        "filter": "https://ghproxy.net/https://raw.githubusercontent.com/simayifei/gao/master/json/wogg.json"
-      },
-      "style": {
-        "type": "rect",
-        "ratio": 0.75
-      }
-    },
-    {
-      "key": "贱贱",
-      "name": "贱贱",
-      "type": 3,
-      "api": "csp_Jianpian",
-      "searchable": 1,
-      "changeable": 1,
-      "ext": "https://ghproxy.net/https://raw.githubusercontent.com/simayifei/gao/master/json/jianpian.json",
-      "style": {
-        "type": "rect",
-        "ratio": 0.75
-      }
-    },
-    {
-      "key": "独播",
-      "name": "独播",
-      "type": 3,
-      "api": "csp_XPathMacFilter",
-      "searchable": 1,
-      "changeable": 1,
-      "ext": "https://ghproxy.net/https://raw.githubusercontent.com/simayifei/gao/master/json/duboku.json",
-      "style": {
-        "type": "rect",
-        "ratio": 0.75
-      }
-    },
-    {
-      "key": "新6V",
-      "name": "新6V",
-      "type": 3,
-      "api": "csp_Xb6v",
-      "searchable": 1,
-      "changeable": 0,
-      "timeout": 60,
-      "style": {
-        "type": "rect",
-        "ratio": 0.75
-      }
-    },
-    {
-      "key": "樱花",
-      "name": "樱花",
-      "type": 3,
-      "api": "csp_Ying",
-      "searchable": 1,
-      "changeable": 1,
-      "style": {
-        "type": "rect",
-        "ratio": 0.75
-      }
-    },
-    {
-      "key": "巴士",
-      "name": "巴士",
-      "type": 3,
-      "api": "csp_Dm84",
-      "searchable": 1,
-      "changeable": 1,
-      "style": {
-        "type": "rect",
-        "ratio": 0.75
-      }
-    },
-    {
-      "key": "异界",
-      "name": "异界",
-      "type": 3,
-      "api": "csp_Ysj",
-      "searchable": 1,
-      "changeable": 1,
-      "style": {
-        "type": "rect",
-        "ratio": 0.75
-      }
-    },
-    {
-      "key": "哔哩",
-      "name": "哔哩",
-      "type": 3,
-      "api": "csp_Bili",
-      "searchable": 1,
-      "changeable": 0,
-      "style": {
-        "type": "rect",
-        "ratio": 1.433
-      },
-      "ext": {
-        "json": "https://ghproxy.net/https://raw.githubusercontent.com/simayifei/gao/master/json/bili.json",
-        "type": "帕梅拉#太极拳#广场舞#演唱会",
-        "cookie": ""
-      }
-    },
-    {
-      "key": "bili_open",
-      "name": "哔哩猫",
-      "type": 3,
-      "api": "https://ghproxy.net/https://raw.githubusercontent.com/simayifei/gao/master/cat/js/bili_open.js",
-      "searchable": 1,
-      "changeable": 0,
-      "ext": {
-        "categories": "短剧#沙雕动画#沙雕穿越#沙雕",
-        "cookie": ""
-      },
-      "style": {
-        "type": "rect",
-        "ratio": 0.75
-      }
-    },
-    {
-      "key": "酷狗",
-      "name": "酷狗",
-      "type": 3,
-      "api": "csp_Kugou",
-      "searchable": 0,
-      "changeable": 0,
-      "style": {
-        "type": "list"
-      }
-    },
-    {
-      "key": "七夜",
-      "name": "七夜",
-      "type": 3,
-      "api": "csp_Dovx",
-      "searchable": 1,
-      "changeable": 0,
-      "style": {
-        "type": "rect",
-        "ratio": 0.75
-      }
-    },
-    {
-      "key": "易搜",
-      "name": "易搜",
-      "type": 3,
-      "api": "csp_YiSo",
-      "searchable": 1,
-      "changeable": 0,
-      "style": {
-        "type": "rect",
-        "ratio": 0.75
-      }
-    },
-    {
-      "key": "云搜",
-      "name": "云搜",
-      "type": 3,
-      "api": "csp_UpYun",
-      "searchable": 1,
-      "changeable": 0,
-      "style": {
-        "type": "rect",
-        "ratio": 0.75
-      }
-    },
-    {
-      "key": "盘搜",
-      "name": "盘搜",
-      "type": 3,
-      "api": "csp_PanSou",
-      "searchable": 1,
-      "changeable": 0,
-      "style": {
-        "type": "rect",
-        "ratio": 0.75
-      }
-    },
-    {
-      "key": "纸条搜",
-      "name": "纸条搜",
-      "type": 3,
-      "api": "csp_XiaoZhiTiao",
-      "searchable": 1,
-      "changeable": 0,
-      "style": {
-        "type": "rect",
-        "ratio": 0.75
-      }
-    },
-    {
-      "key": "盘搜索",
-      "name": "盘搜索",
-      "type": 3,
-      "api": "csp_PanSearch",
-      "searchable": 1,
-      "changeable": 0,
-      "style": {
-        "type": "rect",
-        "ratio": 0.75
-      }
-    },
-    {
-      "key": "找资源",
-      "name": "找资源",
-      "type": 3,
-      "api": "csp_Zhaozy",
-      "searchable": 1,
-      "changeable": 0,
-      "ext": "影视天下第一$$$test2$$$test2",
-      "style": {
-        "type": "rect",
-        "ratio": 0.75
-      }
-    },
-    {
-      "key": "本地",
-      "name": "本地",
-      "type": 3,
-      "api": "csp_Local",
-      "searchable": 0,
-      "changeable": 0
-    },
-    {
-      "key": "AList",
-      "name": "AList",
-      "type": 3,
-      "api": "csp_AList",
-      "searchable": 1,
-      "changeable": 0,
-      "ext": "https://ghproxy.net/https://raw.githubusercontent.com/simayifei/gao/master/json/alist.json",
-      "style": {
-        "type": "rect",
-        "ratio": 0.75
-      }
-    },
-    {
-      "key": "WebDAV",
-      "name": "WebDAV",
-      "type": 3,
-      "api": "csp_WebDAV",
-      "searchable": 0,
-      "changeable": 0,
-      "ext": "https://ghproxy.net/https://raw.githubusercontent.com/simayifei/gao/master/json/webdav.json",
-      "style": {
-        "type": "list"
-      }
-    },
-    {
-      "key": "JustLive",
-      "name": "JustLive",
-      "type": 3,
-      "api": "csp_JustLive",
-      "searchable": 1,
-      "changeable": 0,
-      "style": {
-        "type": "list"
-      }
-    },
-    {
-      "key": "push_agent",
-      "name": "推送",
-      "type": 3,
-      "api": "csp_Push",
-      "searchable": 0,
-      "changeable": 0,
-      "timeout": 60
     }
   ],
   "doh": [
@@ -623,16 +246,6 @@
       ],
       "regex": [
         "#EXT-X-DISCONTINUITY\\r*\\n*#EXTINF:3,[\\s\\S]*?#EXT-X-DISCONTINUITY"
-      ]
-    },
-    {
-      "name": "非凡",
-      "hosts": [
-        "vip.ffzy",
-        "hd.ffzy"
-      ],
-      "regex": [
-        "25.1"
       ]
     },
     {

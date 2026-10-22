@@ -5,6 +5,10 @@
       "name": "凯迪TV AppleTV"
     },
     {
+      "url": "./more.json",
+      "name": "更多资源站"
+    },
+    {
       "url": "./0821.json",
       "name": "高天流云 No.1"
     },
