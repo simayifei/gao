@@ -1,11 +1,11 @@
 {
   "urls": [
     {
-      "url": "./APPTV.json",
+      "url": "https://ghproxy.net/https://raw.githubusercontent.com/simayifei/gao/master/APPTV.json",
       "name": "凯迪TV AppleTV"
     },
     {
-      "url": "./more.json",
+      "url": "https://ghproxy.net/https://raw.githubusercontent.com/simayifei/gao/master/more.json",
       "name": "更多资源站"
     },
     {
